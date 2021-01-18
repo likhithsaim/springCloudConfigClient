@@ -1,0 +1,13 @@
+spring:
+  profiles: default
+  cloud:
+    config:
+      override-system-properties: false
+message: Hello default
+---
+spring:
+  profiles: local
+  cloud:
+    config:
+      override-system-properties: false
+message: Hello local
